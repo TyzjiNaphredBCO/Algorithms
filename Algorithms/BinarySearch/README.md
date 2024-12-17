@@ -6,7 +6,7 @@ You are tasked with implementing a function that performs a binary search to fin
 
 #### **Function Signature**
 ```python
-def find_closest(nums: list[int], target: int) -> int:
+def findClosest(nums: list[int], target: int) -> int:
     pass
 ```
 
@@ -31,27 +31,27 @@ def find_closest(nums: list[int], target: int) -> int:
 # Example 1:
 nums = [1, 3, 5, 8, 12]
 target = 7
-print(find_closest(nums, target))  # Output: 5
+print(findClosest(nums, target))  # Output: 8
 
 # Example 2:
 nums = [2, 4, 6, 9]
 target = 8
-print(find_closest(nums, target))  # Output: 6
+print(findClosest(nums, target))  # Output: 9
 
 # Example 3:
 nums = [10, 15, 20, 25]
 target = 18
-print(find_closest(nums, target))  # Output: 15
+print(findClosest(nums, target))  # Output: 20
 
 # Example 4:
 nums = [1, 2, 3, 4, 5]
 target = 5
-print(find_closest(nums, target))  # Output: 5
+print(findClosest(nums, target))  # Output: 5
 
 # Example 5:
 nums = [10, 20, 30]
 target = 25
-print(find_closest(nums, target))  # Output: 20
+print(findClosest(nums, target))  # Output: 20
 ```
 
 ---
