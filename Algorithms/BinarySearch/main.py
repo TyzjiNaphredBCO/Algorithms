@@ -12,9 +12,17 @@ def findClosest(arr: list[int], target: int) -> int:
     while left <= right:
         mid = (left+right) // 2
         
+        print("Old Closest: ",closest)
+        print("arr[mid]: ", arr[mid])
+        print("Target: ", target)
         if abs(arr[mid] - target) < abs(closest - target) or \
             abs(arr[mid]) - target == abs(closest - target) and arr[mid] < closest:
+            print("abs(arr[mid] - target): ",abs(arr[mid] - target))
+            print("abs(closest - target): ",abs(closest - target))
+            print("Closest: ",closest)
             closest =  arr[mid]
+            
+        
             
         if arr[mid] < target:
             left = mid + 1
