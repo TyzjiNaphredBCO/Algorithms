@@ -63,7 +63,3 @@ print(findClosest(nums, target))  # Output: 20
    - If the target is smaller than all elements in `nums`, return the first element.
    - If the target is larger than all elements in `nums`, return the last element.
    - If two numbers are equidistant, return the smaller one.
-
----
-
-This problem encourages you to apply binary search logic while handling additional conditions for closest-value comparison. It's a good exercise for improving both algorithmic thinking and Python proficiency!
